@@ -4,11 +4,13 @@ import { AcumuladorComponent } from './acumulador/acumulador.component';
 import { ClientesModule } from './clientes/clientes.module';
 import { CompartidoModule } from './compartido/compartido.module';
 import { GiphyModule } from './giphy/giphy.module';
+//Modulo para poder invocar a las API'S
+import { HttpClientModule } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet,AcumuladorComponent,ClientesModule,CompartidoModule,GiphyModule],
+  imports: [RouterOutlet,AcumuladorComponent,ClientesModule,CompartidoModule,GiphyModule,HttpClientModule],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
