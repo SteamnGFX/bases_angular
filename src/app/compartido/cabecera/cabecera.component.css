@@ -1,0 +1,19 @@
+.header {
+    height: 15vh;
+    background: linear-gradient(to right,#2b34bae3, #d1d4f1ea);
+    border-radius: 20px;
+ }
+  
+ .heading-primary {
+    font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5rem;
+ }
+  
+ @media only screen and (max-width: 37.5rem) {
+    .heading-primary {
+        font-weight: 700;
+        letter-spacing: 0.2rem;
+    }
+ }
