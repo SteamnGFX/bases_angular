@@ -1,1 +1,42 @@
-/* You can add global styles to this file, and also import other style files */
+html, body {
+   background-color: white;
+    margin: 20px;
+    color: #3e4144;
+ }
+  
+ button {
+   background-color: #1491B7;
+   color: white;
+   border-radius: 5px;
+   border: 0px;
+   color: white;
+   cursor: pointer;
+   margin-right: 5px;
+   margin-left: 5px;
+   padding: 5px;
+ }
+  
+ .centrado {
+    display: flex;
+   flex-direction: row;
+    justify-content: center;
+ }
+
+ .row{
+   display: flex;
+ }
+
+ .col{
+   flex-grow: 1;
+   margin-right: 70px;
+   background-color: #E6EFF2;
+   border-radius: 20px;
+   padding: 20px ;
+ }
+
+input{
+   height: 30px;
+   margin: 10px;
+   border-radius: 10px;
+   border-width: 1px;
+}

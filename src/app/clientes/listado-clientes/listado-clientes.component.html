@@ -1,0 +1,9 @@
+<div class="col">
+  <h3>Clientes</h3>
+  <hr/>
+ <ul>
+   <li *ngFor="let cliente of clientes" style="padding-top: 10px;">
+       {{cliente.nombre}} - {{cliente.credito | number}}
+   </li>
+</ul>
+</div>

@@ -1,0 +1,23 @@
+<div class="col">
+    <h3>Agregar</h3>
+    <hr />
+    <form (submit)="agregar()">
+     <!--Definimos el campo para el nombre y lo asociamos con el campo nombre del modelo (nuevo.nombre)-->
+    <input
+         type="text"
+         placeholder="Nombre de la persona"
+         name="nombre"
+         [(ngModel)]="nuevo.nombre"
+        />
+    <!--Definimos el campo para el nombre y lo asociamos con el campo credito del modelo (nuevo.credito)-->
+    <input
+         type="number"
+         placeholder="Credito de la persona"
+         name="credito"
+        [(ngModel)]="nuevo.credito"
+        />
+     <button type="submit">
+         Agregar
+    </button>
+  </form>
+</div>
