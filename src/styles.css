@@ -22,18 +22,6 @@ html, body {
     justify-content: center;
  }
 
- .row{
-   display: flex;
- }
-
- .col{
-   flex-grow: 1;
-   margin-right: 70px;
-   background-color: #E6EFF2;
-   border-radius: 20px;
-   padding: 20px ;
- }
-
 input{
    height: 30px;
    margin: 10px;
